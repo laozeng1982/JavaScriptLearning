@@ -8,16 +8,17 @@ const LOG = require('../util.js');
 let log = new LOG.log();
 console.log();
 
+// 3 methods define a String
 var str1 = new String("string1");
 var str2 = String("string2");
 var str3 = "string3";
 
-log.info("str1 is: "+str1);
-log.info("str2 is: "+str2);
-log.info("str3 is: "+str3);
+log.info("str1 is: " + str1);
+log.info("str2 is: " + str2);
+log.info("str3 is: " + str3);
 console.log();
 
-var gender = "";
+var gender = "man";
 if (gender === "man")
     log.info("Hi, 帅哥");
 else if (gender === "female")

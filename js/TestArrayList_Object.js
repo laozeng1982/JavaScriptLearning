@@ -33,6 +33,7 @@ log.info("list contains cs1 is: " + list.contains(cs1));
 log.info("list contains cs2 is: " + list.contains(cs2));
 log.info("the position of cs1 in list is: " + list.find(cs1));
 log.info("the position of cs1 in list is: " + list.find(cs2));
+console.log();
 
 for (list.front(); list.currPos() < list.length(); list.next()) {
 
