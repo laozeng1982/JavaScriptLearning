@@ -1,6 +1,6 @@
 /**
- * This is a data type demonstration
- * About Date
+ * This is a Math demonstration
+ * About Math
  */
 
 const LOG = require('../util.js');

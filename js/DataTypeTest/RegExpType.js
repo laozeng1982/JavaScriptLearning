@@ -1,6 +1,6 @@
 /**
  * This is a data type demonstration
- * About Date
+ * About Regexp
  */
 
 const LOG = require('../util.js');

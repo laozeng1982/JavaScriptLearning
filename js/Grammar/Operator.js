@@ -1,6 +1,6 @@
 /**
  * This is a grammar demonstration
- * About DeepCopy
+ * About Operator
  */
 
 const LOG = require('../util.js');
