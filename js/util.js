@@ -15,7 +15,7 @@ function formatNumber(n) {
     return n[1] ? n : '0' + n;
 }
 
-class log {
+class Log {
     constructor() {
 
     }
@@ -55,6 +55,6 @@ class log {
 
 
 module.exports = {
-    log: log,
+    Log: Log,
     formatTimeToString: formatTimeToString
 };

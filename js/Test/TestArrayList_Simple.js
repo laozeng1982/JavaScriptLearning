@@ -1,4 +1,4 @@
-const LIST = require('./Data_Structure/ArrayList.js');
+const LIST = require('../Data_Structure/ArrayList.js');
 
 var list = new LIST.ArrayList();
 
@@ -9,10 +9,10 @@ for (let idx = 0; idx < 50; idx++) {
 
 var logger = require('tracer').console();
 
-// logger.log(list.insert("fuck", "aa1"));
-logger.log(list.dataStore);
-logger.log(list.contains("aa1"));
-logger.log(list.find("aa0"));
+// logger.Log(list.insert("fuck", "aa1"));
+logger.Log(list.dataStore);
+logger.Log(list.contains("aa1"));
+logger.Log(list.find("aa0"));
 
 
 for (list.front(); list.currPos() < list.length(); list.next()) {

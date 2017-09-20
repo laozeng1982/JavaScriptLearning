@@ -5,7 +5,7 @@
 
 const LOG = require('../util.js');
 
-let log = new LOG.log();
+let log = new LOG.Log();
 console.log();
 
 var number = 0;
@@ -55,7 +55,7 @@ if (person3)
     log.info("person3 is true!");
 
 // if (person4)
-//     log.info("person4 is true!");
+//     Log.info("person4 is true!");
 
 console.log();
 

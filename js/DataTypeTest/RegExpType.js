@@ -5,7 +5,7 @@
 
 const LOG = require('../util.js');
 
-let log = new LOG.log();
+let log = new LOG.Log();
 console.log();
 
 var str = "Hi Jian Ge, Jian Ge is a handsome man. JIAN GE is teaching JavaScript. JavaScript is the best WEB LANGUAGE!";

@@ -4,7 +4,7 @@
 
 const LOG = require('../util.js');
 
-let log = new LOG.log();
+let log = new LOG.Log();
 console.log();
 
 // Boolean

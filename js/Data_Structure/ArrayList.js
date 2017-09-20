@@ -59,6 +59,22 @@ class ArrayList {
     }
 
     /**
+     * replace the given oldElement by newElement if it exists.
+     * @param oldElement
+     * @param newElement
+     * @returns {boolean}
+     */
+    replace(oldElement, newElement) {
+        let foundAt = this.find(oldElement);
+        if (foundAt > -1) {
+            this.dataStore.splice(foundAt, 1, newElement);
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    /**
      * insert element to after the element "after".
      * @param element, the element you want to insert
      * @param after, the element you want to insert after
