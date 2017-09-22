@@ -1,10 +1,10 @@
-const LIST = require('../Data_Structure/ArrayList.js');
+const LIST = require('../DataStructure/ArrayList.js');
 const LOG = require('../util.js');
-const PERSON = require('../Data_Structure/Person.js');
+const PERSON = require('../DataStructure/Person.js');
 
 let list = new LIST.ArrayList();
 let log = new LOG.Log();
-let Person = require('../Data_Structure/Person.js').Person;
+let Person = require('../DataStructure/Person.js').Person;
 console.log();
 
 

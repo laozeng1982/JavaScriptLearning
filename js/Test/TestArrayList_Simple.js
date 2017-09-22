@@ -1,4 +1,4 @@
-const LIST = require('../Data_Structure/ArrayList.js');
+const LIST = require('../DataStructure/ArrayList.js');
 
 var list = new LIST.ArrayList();
 
